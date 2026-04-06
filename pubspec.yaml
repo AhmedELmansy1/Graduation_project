@@ -1,0 +1,67 @@
+name: forensic_system
+description: Image & Audio Forgery Detection Forensic System
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # UI & Design
+  google_fonts: ^6.1.0
+  lottie: ^3.0.0
+  flutter_animate: ^4.5.0
+  font_awesome_flutter: ^10.6.0
+  introduction_screen: ^3.1.13
+  
+  # File & Media
+  image_picker: ^1.0.7
+  file_picker: ^8.0.0+1
+  path_provider: ^2.1.2
+  image: ^4.1.7
+  exif: ^3.1.5
+  
+  # Audio
+  audio_waveforms: ^1.0.5
+  audioplayers: ^5.2.1
+  
+  # Data & Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+  
+  # Utils & Security
+  crypto: ^3.0.3
+  intl: ^0.20.2
+  pdf: ^3.10.8
+  printing: ^5.11.1
+  qr_flutter: ^4.1.0
+  share_plus: ^7.2.2
+  local_auth: ^2.1.6
+  url_launcher: ^6.2.4
+
+  # AI Engine (DeepSecure-AI Real Core)
+  onnxruntime: ^1.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/icons/
+    - assets/sounds/
+    - assets/models/
